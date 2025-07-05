@@ -131,16 +131,18 @@ class LikeCommands(commands.Cog):
                     if data.get("status") == 1:
                         embed.description = (
                             f"\n"
-                            f"┌  ACCOUNT\n"
-                            f"├─ NICKNAME: {data.get('player', 'Unknown')}\n"
-                            f"├─ UID: {uid}\n"
-                            f"└─ RESULT:\n"
-                            f"   ├─ ADDED: +{data.get('likes_added', 0)}\n"
-                            f"   ├─ BEFORE: {data.get('likes_before', 'N/A')}\n"
-                            f"   └─ AFTER: {data.get('likes_after', 'N/A')}\n"
+                            f"┌  🌐ACCOUNT FREE FIRE\n"
+                            f"├─ 👤NICKNAME: {data.get('player', 'Unknown')}\n"
+                            f"├─ ▪️UID: {uid}\n"
+                            f"└─ ▪️RESULT:\n"
+                            f"   ├─ ➕ADDED: +{data.get('likes_added', 0)}\n"
+                            f"   ├─ ⭕BEFORE: {data.get('likes_before', 'N/A')}\n"
+                            f"   └─ 🌟AFTER: {data.get('likes_after', 'N/A')}\n"
+                            Bot de likes aqui🫴: https://t.me/+To1bFmMaHHw5OWQ0 @everyone
+
                         )
                     else:
-                        embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
+                        embed.description = "\n┌MAX LIKES\n└─Esse {uid} já recebeu o máximo de likes hoje❗.\n"
 
                     embed.set_footer(text="DEVELOPED BY THUG")
                     embed.description += "\n🔗 JOIN : https://discord.gg/awPm5B3QFg"
